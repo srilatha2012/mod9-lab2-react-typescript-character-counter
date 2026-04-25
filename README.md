@@ -71,3 +71,8 @@ export default defineConfig([
   },
 ])
 ```
+## Reflection
+1. How did you handle state updates when the text changed?
+2. What considerations did you make when calculating reading time?
+3. How did you ensure the UI remained responsive during rapid text input?
+4. What challenges did you face when implementing the statistics calculations?
