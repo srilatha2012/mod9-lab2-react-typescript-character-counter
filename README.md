@@ -1,5 +1,21 @@
 # React + TypeScript + Vite
 
+
+## Character counter app
+This React + TypeScript project allows users to type text and view real time statastics
+
+## Technologies Used
+  - React
+  - TypeScript
+  - Tailwind css
+  - vite
+
+## Example Usage 
+ <TextInput onTextChange={setText}
+        />
+        <StatsDisplay stats={stats} showReadingTime={true} />
+        <CharacterCounter minWords={25} maxWords={200} targetReadingTime={1} />
+
 ## Reflection
 1. How did you handle state updates when the text changed?
 I handled state updates using useState() hook. I stored the current text in a state variable called text. When the user typed in the textarea, the child component called the onTextChange callback and sent the new value to the parent.
